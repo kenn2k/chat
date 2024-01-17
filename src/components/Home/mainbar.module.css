@@ -1,0 +1,22 @@
+.mainBar {
+  flex: 3;
+  background-color: var(--side-background-color);
+  color: var(--side-text-color);
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wrapper h1 {
+  font-size: 2.5rem;
+}
+
+.wrapper h2 {
+  font-size: 3rem;
+}

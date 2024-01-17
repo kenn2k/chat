@@ -1,0 +1,26 @@
+.input input {
+  outline: none;
+  width: 100%;
+  border: none;
+  padding: 1rem 3rem;
+  overflow: hidden;
+}
+.input {
+  background-color: aliceblue;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.input button {
+  background-color: white;
+  border: none;
+  border-left: 1px solid #466e61;
+  padding: 1rem 3rem;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input button:hover {
+  background-color: #d3d3d3;
+}

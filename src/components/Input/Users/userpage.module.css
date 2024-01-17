@@ -1,0 +1,16 @@
+.content {
+  background-color: #b4cefe;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  border: 1px solid #84b592;
+  border-radius: 20px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+}

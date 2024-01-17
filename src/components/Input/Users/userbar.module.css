@@ -1,0 +1,70 @@
+/* userbar.module.css */
+
+.mainBar {
+  flex: 3;
+  background-color: #242424;
+  color: #84b592;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 65.4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.7rem;
+  background-color: var(--header-background-color);
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.arrows svg {
+  color: var(--header-text-color);
+  background: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.messages {
+  background-color: var(--main-chat-color);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  color: var(--header-background-color);
+}
+
+.messageList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0 5%;
+}
+.messageList li {
+  background-color: var(--header-text-color);
+
+  border: 1px solid #121212;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  text-align: right;
+}
+
+.footer {
+  background-color: var(--main-chat-color);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}

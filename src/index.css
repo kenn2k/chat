@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Belleza&family=Montserrat:wght@400;800&family=MuseoModerno:ital,wght@0,400;0,800;1,700&family=Roboto:wght@100;400&family=Sawarabi+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --header-background-color: #948574;
+  --header-text-color: #423d35;
+
+  --side-background-color: #d8c2a9;
+  --side-text-color: #cacdf8;
+
+  --main-chat-color: #7a7a78;
+  --main-text-color: #84b592;
+  font-family: "Manrope", sans-serif;
+}
+
+body.dark {
+  --header-background-color: #242424;
+  --header-text-color: #efed72;
+
+  --side-background-color: #363636;
+  --side-text-color: #efed72;
+
+  --main-chat-color: #4b4b4b;
+  --main-text-color: #ffffff;
+}
+
+li {
+  list-style-type: none; /* Убирает маркеры списка */
+  line-height: 1.5; /* Задает высоту строки для лучшего визуального восприятия */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

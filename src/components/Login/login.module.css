@@ -1,0 +1,23 @@
+.content {
+  height: 100vh;
+  background-color: #b4cefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20%;
+  height: 15%;
+  border-radius: 10px;
+}
+
+.wrapper h1 {
+  font-size: 1rem;
+}
